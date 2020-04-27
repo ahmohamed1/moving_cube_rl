@@ -3,7 +3,7 @@
  this tutorial from https://www.theconstructsim.com and can be view the youtube explination: https://www.youtube.com/watch?v=3_afZzjAQbc
  
  to run the training
- 1. roscore
+ ```roscore ```
  
  
  open gazebo:
