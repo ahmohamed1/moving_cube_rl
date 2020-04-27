@@ -5,15 +5,16 @@
  to run the training
  1. roscore
  
- open gazebo 
- 2. roslaunch gazebo_ros empty_world.launch
+ 
+ open gazebo:
+ ```roslaunch gazebo_ros empty_world.launch```
  
  then spwn the cube 
- 3. roslaunch my_moving_cube_description spawn_moving_cube.launch
+```roslaunch my_moving_cube_description spawn_moving_cube.launch```
  
  and now we can run the controller
-4. roslaunch my_moving_cube_description moving_cube_control.launch
+```roslaunch my_moving_cube_description moving_cube_control.launch```
 
 finally we run the training launch file
 
-5. roslaunch my_moving_cube_training_pkg start_training.launch
+```roslaunch my_moving_cube_training_pkg start_training.launch```
